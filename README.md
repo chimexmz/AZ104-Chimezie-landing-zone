@@ -2,7 +2,7 @@
 
 ## Overview of the project
 This repository contains a real-world, end-to-end Azure Administrator (AZ-104) project.  
-The goal is to design and deploy a secure Azure “landing zone” (governance + networking + identity) and host a production-style workload with monitoring, security, backup, and automation — using Infrastructure as Code (IaC) and GitHub Actions.
+The goal is to design and deploy a secure Azure “landing zone” (governance + networking + identity) and host a production-style workload with monitoring, security, backup, and automation using Infrastructure as Code (IaC) and GitHub Actions.
 
 **Why this project matters:** It mirrors what Azure Administrators do in real organizations:
 - Build secure foundations (RBAC, policies, networking)

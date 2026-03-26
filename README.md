@@ -23,6 +23,7 @@ The goal is to design and deploy a secure Azure “landing zone” (governance +
 - **Protection:** Backup (Recovery Services Vault if VM is used), Key Vault for secrets
 - **Automation:** Scheduled runbooks/scripts (start/stop non-prod, cleanup tasks)
 - **CI/CD:** GitHub Actions for IaC validation + deployment (Dev/Prod)
+<img width="1536" height="1024" alt="Designer (1)" src="https://github.com/user-attachments/assets/b8124bfe-d389-4f23-b6ed-800b9fb3aba5" />
 
 > docs/diagrams/architecture.png
 

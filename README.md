@@ -1,7 +1,7 @@
-# AZ-104 Capstone: Contoso Secure Landing Zone + Production Workload (GitHub Portfolio)
+# AZ-104 Real world project: Secure Landing Zone + Production Workload
 
-## Overview
-This repository contains a real-world, end-to-end Azure Administrator (AZ-104) capstone project.  
+## Overview of the project
+This repository contains a real-world, end-to-end Azure Administrator (AZ-104) project.  
 The goal is to design and deploy a secure Azure “landing zone” (governance + networking + identity) and host a production-style workload with monitoring, security, backup, and automation — using Infrastructure as Code (IaC) and GitHub Actions.
 
 **Why this project matters:** It mirrors what Azure Administrators do in real organizations:
@@ -24,8 +24,7 @@ The goal is to design and deploy a secure Azure “landing zone” (governance +
 - **Automation:** Scheduled runbooks/scripts (start/stop non-prod, cleanup tasks)
 - **CI/CD:** GitHub Actions for IaC validation + deployment (Dev/Prod)
 
-> ✅ Add an image here once you have it:
-> `docs/diagrams/architecture.png`
+> docs/diagrams/architecture.png
 
 ---
 

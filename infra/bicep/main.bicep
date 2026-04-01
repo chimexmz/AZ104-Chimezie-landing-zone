@@ -61,10 +61,3 @@ module spokeNetwork './modules/spoke-network.bicep' = {
     appSubnetPrefix: '10.1.1.0/24'
   }
 }
-
-// =====================
-// SPOKE OUTPUTS (ADDED ✅)
-// =====================
-output spokeResourceGroup string = rgSpoke.name
-output spokeVnetId string = spokeNetwork.outputs.spokeVnetId
-output spokeVnetName string = spokeNetwork.outputs.spokeVnetName
